@@ -1,0 +1,24 @@
+# The program that reads in these values assumes that the polarizability is the first stored value.
+# When storing quantum defects, all intermediate l,j states must be stored, even if a value is not known
+# for a state; if this is the case, just store a single number 0. If multiple defects are known,
+# they should be separated by commas as this is used in the string tokenizer.
+# Core Polarizability
+9.023
+# Defects for s1/2
+3.13118041,0.17846
+# Defects for p1/2 
+2.65488491,0.29006
+# Defects for p3/2
+2.64167371,0.29507
+# Defects for d3/2
+1.348091714,-0.6028626
+# Defects for d5/2
+1.346465723,-0.5960018
+# Defects for f5/2
+0.01651929,-0.0859
+# Defects for f7/2
+0.01654377,-0.0867
+# Defects for g7/2
+0.004056
+# Defects for g9/2
+0.004056

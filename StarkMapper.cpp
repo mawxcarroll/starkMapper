@@ -9,7 +9,6 @@
 #include "netcdf.h"
 #include <gsl/gsl_math.h>
 #include <gsl/gsl_rng.h>
-#include "Rectangle.h"
 #include "RydbergAtom.h"
 #include "StarkHamiltonian.h"
 
